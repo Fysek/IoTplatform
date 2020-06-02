@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DHT">
+      <UniqueIdentifier>{c39c5388-9068-491c-ade2-8c72ffc3ccb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DHT">
+      <UniqueIdentifier>{afe890e2-55fc-40fc-8a3b-a78e04d7d043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BME">
+      <UniqueIdentifier>{deb9b5bf-f1da-4f02-a586-6a0e1d8ad71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BME">
+      <UniqueIdentifier>{ae20254c-91ea-4e15-97a4-d0554068e446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\APDS">
+      <UniqueIdentifier>{2d75c763-1238-40e7-a16e-2031443e52cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\APDS">
+      <UniqueIdentifier>{948bc80a-7ff5-4080-9722-f7ea31c4eb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DS18">
+      <UniqueIdentifier>{0626d8db-cca2-4f5c-ad37-9c21fb731847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS18">
+      <UniqueIdentifier>{b2d7d9bd-6925-431d-b5b5-2d794756691d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\sensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\sensor_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DHT\dht_family.cpp">
+      <Filter>Source Files\DHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DHT\dht11.cpp">
+      <Filter>Source Files\DHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DHT\dht12.cpp">
+      <Filter>Source Files\DHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DHT\dht21.cpp">
+      <Filter>Source Files\DHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DHT\dht22.cpp">
+      <Filter>Source Files\DHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BME\bme_family.cpp">
+      <Filter>Source Files\BME</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BME\bme280.cpp">
+      <Filter>Source Files\BME</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\BME\bme680.cpp">
+      <Filter>Source Files\BME</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\APDS\apds_family.cpp">
+      <Filter>Source Files\APDS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\APDS\apds9930.cpp">
+      <Filter>Source Files\APDS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\APDS\apds9960.cpp">
+      <Filter>Source Files\APDS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DS18\ds18_family.cpp">
+      <Filter>Source Files\DS18</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DS18\ds18b20.cpp">
+      <Filter>Source Files\DS18</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DS18\ds18s20.cpp">
+      <Filter>Source Files\DS18</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BME\bme_family.h">
+      <Filter>Header Files\BME</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BME\bme280.h">
+      <Filter>Header Files\BME</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BME\bme680.h">
+      <Filter>Header Files\BME</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DHT\dht_family.h">
+      <Filter>Header Files\DHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DHT\dht11.h">
+      <Filter>Header Files\DHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DHT\dht12.h">
+      <Filter>Header Files\DHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DHT\dht21.h">
+      <Filter>Header Files\DHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DHT\dht22.h">
+      <Filter>Header Files\DHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\APDS\apds_family.h">
+      <Filter>Header Files\APDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\APDS\apds9930.h">
+      <Filter>Header Files\APDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\APDS\apds9960.h">
+      <Filter>Header Files\APDS</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\sensor_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DS18\ds18_family.h">
+      <Filter>Header Files\DS18</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DS18\ds18b20.h">
+      <Filter>Header Files\DS18</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DS18\ds18s20.h">
+      <Filter>Header Files\DS18</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
